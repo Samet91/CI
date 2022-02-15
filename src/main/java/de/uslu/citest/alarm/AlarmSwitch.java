@@ -4,6 +4,7 @@ public class AlarmSwitch {
 
     private static final String WARNING_MESSAGE = "Zu viele Personen";
     private static final String OK_MESSAGE = "Maximale Personenzahl nicht überschritten";
+
     public static String checkNumberOfCustomers(int numberOfCustomers, String alarmLevel) {
         switch (alarmLevel) {
             case "rot":
